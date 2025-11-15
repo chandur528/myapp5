@@ -1,0 +1,95 @@
+{
+  "id": "64371557-4b04-41ee-a6af-267489113d9b",
+  "version": "2.0",
+  "name": "KITSW",
+  "url": "https://www.google.co.in/",
+  "tests": [{
+    "id": "0789e4fa-0896-4641-872f-d8ff2be0bd09",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "6bde5962-898f-4c65-bed4-aea7e5a285f6",
+    "name": "cse",
+    "commands": [{
+      "id": "7ac777f4-5e67-4987-a262-75a515d3e1e2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4cc4ba3-3bee-445d-9112-cf7d1c23a813",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4460bdb0-948b-4445-be1d-a113953091e0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.gb_Ua", "css:finder"],
+        ["xpath=//div[@id='gb']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/&ec=futura_ctr_og_so_72776761_p')]", "xpath:href"],
+        ["xpath=//body/div/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c249c250-a5f1-4365-8829-42a59d436208",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "644fb55d-15a2-4bbc-999a-68437cb203f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "kits n"
+    }, {
+      "id": "351ebe5f-1243-4c98-9fa1-a275d0dcece3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'kits nizamabad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "23b8ffdb-517a-4e88-9232-9fb5a706e59a",
+    "name": "cse1",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "adec9696-8bf1-454f-8d6c-e1efd3b00574",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0789e4fa-0896-4641-872f-d8ff2be0bd09"]
+  }],
+  "urls": [],
+  "plugins": []
+}
